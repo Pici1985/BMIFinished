@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="BMI.css">
+    <title>BMI Calculator</title>
+</head>
+
+<body>
+
+    <h1>Welcome to the GYM!</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <h3>This a simple BMI calculator application:</h3>
+                <div class="form-group">
+                    <label for="hight"> Height in meters:</label>
+                    <input type="number" name="hightInput" class="form-control" value="" id="hight">m
+                    <small class="form-text text-muted"></small>
+                </div>
+                <div class="form-group">
+                    <label for="weight"> Weight in kg:</label>
+                    <input type="number" name="weightInput" class="form-control" value="" id="weight">kg
+                    <small class="form-text text-muted"></small>
+                </div>
+
+                <button onclick="getValues()" type="button" value="func" class="button btn btn-primary">Calculate</button>
+                <p> Your BMI is:</p>
+                <div class="form-control" id="score">
+                    <span id="demo" type="number"></span>
+                </div>
+                <div>
+                    <p> This means you are: <span id="answer" type="text"></span></p>
+                </div>
+
+
+            </div>
+            <div class="col-4"></div>
+
+        </div>
+    </div>
+    <h3>Aaaaand this is what you really look like... </h3>
+    <div class="picboxrow">
+
+        <div class="column">
+            <img class="img" src="gollum.jpg" alt="skinny" id="skinny" style="display:none">
+        </div>
+        <div class="column">
+            <img class="img" src="tauriel.jpg" alt="normal" id="normal" style="display:none">
+        </div>
+        <div class="column">
+            <img class="img" src="jabba.jpg" alt="fat" id="fat" style="display:none"> 
+        </div>
+
+    </div>
+    <script src="BMI.js"></script>
+
+</body>
+
+</html>
