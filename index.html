@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/lib/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="/lib/css/bootstrap.css">  -->
     <link rel="stylesheet" href="BMI.css">
     <title>BMI Calculator</title>
 </head>
@@ -15,21 +15,21 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-4"></div>
+            
             <div class="col-4">
                 <h3>This a simple BMI calculator application:</h3>
                 <div class="form-group">
-                    <label for="hight"> Height in meters:</label>
+                    <label> Height:</label>
                     <input type="number" name="hightInput" class="form-control" value="" id="hight">m
                     <small class="form-text text-muted"></small>
                 </div>
                 <div class="form-group">
-                    <label for="weight"> Weight in kg:</label>
+                    <label> Weight:</label>
                     <input type="number" name="weightInput" class="form-control" value="" id="weight">kg
                     <small class="form-text text-muted"></small>
                 </div>
 
-                <button onclick="getValues()" type="button" value="func" class="button btn btn-primary">Calculate</button>
+                <button onclick="getValues()" type="button" value="func" class="btn">Calculate</button>
                 <p> Your BMI is:</p>
                 <div class="form-control" id="score">
                     <span id="demo" type="number"></span>
@@ -40,7 +40,7 @@
 
 
             </div>
-            <div class="col-4"></div>
+            
 
         </div>
     </div>
