@@ -34,6 +34,7 @@ img {
     border: solid 3px white;
     border-radius: 5px;
     box-shadow: 5px 5px 7px black;
+    align-self: center;
 }
 
 h1 {
@@ -51,7 +52,7 @@ body {
 }
 .form-control {
     font-size: 40px;
-    width: 500px;
+    width: 100px;
     margin: auto;
     border-radius: 5px;
     border: solid 2px black;
@@ -60,7 +61,8 @@ body {
 }
 .form-group {
     font-size: 40px;
-    width: 500px;
+    text-shadow: 2px 2px 4px black;
+    width: 80%;
     margin: auto; 
     margin-bottom: 20px;      
 }
