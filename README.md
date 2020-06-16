@@ -1,2 +1,1 @@
-# faszkivanma
-kivnma
+na most jo lesz vajon?
