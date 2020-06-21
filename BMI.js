@@ -1,4 +1,6 @@
 
+// function to read input values
+
 function getValues() {
   var hight = document.getElementById("hight").value;
   var weight = document.getElementById("weight").value;
@@ -9,6 +11,8 @@ function getValues() {
 
 bmiGrouper(BMI);
 }
+
+// function to calculate bmi and set body class
 
 function bmiGrouper(BMI) { 
     var a = 0;  
@@ -24,6 +28,8 @@ function bmiGrouper(BMI) {
   }
 picRevealer(a);
 }
+
+// function to show picture of body type
 
 function picRevealer(a) {
   if (a == 1) {
