@@ -14,13 +14,13 @@ function bmiGrouper(BMI) {
     var a = 0;  
   if (BMI < 18) {
     a = 1
-    document.getElementById("answer").innerHTML = "skinny";
+    document.getElementById("answer").innerHTML = "underweight";
   } else if ( BMI < 23) {
     a = 2
     document.getElementById("answer").innerHTML = "normal";
   } else {
     a = 3
-    document.getElementById("answer").innerHTML = "fat";
+    document.getElementById("answer").innerHTML = "ovrweight";
   }
 picRevealer(a);
 }
