@@ -20,7 +20,7 @@ function bmiGrouper(BMI) {
     document.getElementById("answer").innerHTML = "normal";
   } else {
     a = 3
-    document.getElementById("answer").innerHTML = "ovrweight";
+    document.getElementById("answer").innerHTML = "overweight";
   }
 picRevealer(a);
 }
